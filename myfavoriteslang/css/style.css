@@ -1,0 +1,144 @@
+/* 
+ESSA CLASSE NÃO SERVE DE NADA,
+APENAS PARA VOCÊS VEREM OS HEXAS
+DAS CORES DO LAYOUT 
+*/
+.cores{
+    color: #4A56F9;
+    color: #BE123C;
+    color: #1F2937;
+    color: #F1F5F9;
+    color: #64748B;
+    color: #3A5479
+}
+
+/*
+################### 
+################### 
+SEU CÓDIGO 
+DAQUI PARA BAIXO 
+##################
+##################
+*/
+
+.container{
+    margin: auto;
+    display: flex;
+}
+
+.header{
+    background-color: #F1F5F9;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.m37020923-header{
+    background-color: #F1F5F9;
+    width: 100%;
+    height: 115px;
+}
+
+.logo{
+    margin: 30px 0px 0px 180px;
+    padding: 0px 600px 0px 0px;
+}
+
+.user{
+    display: flex;
+    margin: 40px 0px 0px 0px;
+    
+}
+
+.user img{
+    width: 33px;
+    height: 33px;
+    padding: 3px 10px;
+}
+
+.main{
+    margin: 0px 80px;
+}
+
+.m37020923-form{
+    display: flex;
+    padding: 90px 0px 30px 0px;
+    margin: 0px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.m37020923-submit{
+    background-color: #4A56F9;
+    height: 54px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0px 20px;
+    margin: -2px 10px;
+    border: 0;
+    color: #FFF;
+}
+
+.m37020923-text{
+    background-color: #64748B;
+    color : #3A5479;
+    height: 30px;
+    width: 365px;
+    padding: 10px;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.m37020923-text::placeholder{
+    color : #3A5479;
+}
+
+ul {
+    padding : 0;
+}
+
+li {
+    background-color: #F1F5F9;
+    display: flex;
+    margin: 8px 0px 0px 0px;
+    padding : 0px 20px 0px 0px;
+    align-items: center;
+    justify-content: space-between;
+    width:470px;
+    height: 80px;
+}
+
+li:nth-child(2){
+    width : 475px;
+}
+
+li figure{
+    margin: 0px 30px;
+}
+
+li h4{
+    font-size: 20px;
+    width : 300px;
+}
+
+li h3{
+    font-size: 42px;
+    padding: 0px 0px 0px 0px;
+}
+
+.m37020923-red{
+    color: #BE123C;
+}
+
+.m37020923-roxo{
+    color: #4A56F9;
+}
+
+footer p{
+    padding: 40px 0px;
+    margin: auto;
+    color : #3A5479;
+}
